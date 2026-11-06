@@ -1,0 +1,21 @@
+{
+  "documented_model_configuration": [
+    "Frozen NewGain/pi05_robocasa_gr1_tabletop24, step 30,000; ten denoising steps.",
+    "The selected v4 profile is adaptive. It expects 29 public state coordinates and a 16x32 noise tensor."
+  ],
+  "selected_v4_profile": "adaptive",
+  "settings": {
+    "base_correlation": 0.65,
+    "hard_image_refresh": 0.08,
+    "image_deadband": 0.01,
+    "image_scale": 0.1,
+    "low_progress_ratio": 0.15,
+    "low_progress_strikes": 2,
+    "maximum_refresh_interval": 32,
+    "minimum_command_motion": 0.01,
+    "minimum_correlation": 0.1,
+    "minimum_joint_range": 0.15,
+    "tracking_scale": 0.12
+  },
+  "weights_included": false
+}

@@ -1,0 +1,91 @@
+{
+  "arms": {
+    "authors": {
+      "alternative_selections": 0,
+      "episodes": 120,
+      "extra_samples": 0,
+      "horizon_violations": 0,
+      "inference_budget_violations": 0,
+      "noise_refreshes": 0,
+      "noise_reused_decisions": 0,
+      "noise_reused_positions": 0,
+      "policy_calls": 9570,
+      "policy_inference_seconds": 2107.7176059992053,
+      "policy_roundtrip_seconds": 2237.0014469772577,
+      "selector_seconds": 14.684703219216317,
+      "server_inference_seconds": 2228.4818167919293,
+      "simulator_step_seconds": 2882.497419341933,
+      "success_percent": 33.333333333333336,
+      "success_wilson_95_percent": [
+        25.531740501258444,
+        42.16889837936501
+      ],
+      "successes": 40,
+      "wall_seconds": 6620.634464630391
+    },
+    "v4": {
+      "alternative_selections": 0,
+      "episodes": 120,
+      "extra_samples": 0,
+      "horizon_violations": 0,
+      "inference_budget_violations": 0,
+      "noise_refreshes": 3674,
+      "noise_reused_decisions": 5885,
+      "noise_reused_positions": 43356,
+      "policy_calls": 9559,
+      "policy_inference_seconds": 2104.5440020002425,
+      "policy_roundtrip_seconds": 2233.267190095503,
+      "selector_seconds": 44.56709194928408,
+      "server_inference_seconds": 2224.724916070234,
+      "simulator_step_seconds": 2870.8965995809995,
+      "success_percent": 35.833333333333336,
+      "success_wilson_95_percent": [
+        27.81607905032006,
+        44.72946399820988
+      ],
+      "successes": 43,
+      "wall_seconds": 6624.9707491607405
+    }
+  },
+  "completed_cases": 120,
+  "completed_physical_episodes": 240,
+  "coverage": "All displayed arms use only the same completed cases",
+  "inference_interpretation": "Same 180-call ceiling; both arms one call/decision; actual cost disclosed",
+  "initial_prediction_mismatches": 0,
+  "initial_state_mismatches": 0,
+  "interpretation": "Five episodes/task pilot; task clustering and only five seed indices limit uncertainty estimates; no unseen-task-type claim",
+  "paired_physical_episodes": 240,
+  "paper_target": {
+    "benchmark": "RoboCasa GR1 Tabletop",
+    "policy": "pi0.5 + AHS",
+    "reported_episodes": 1200,
+    "reported_percent": 42.5
+  },
+  "phase": "test",
+  "planned_cases": 120,
+  "planned_physical_episodes": 240,
+  "primary_contrasts": [
+    {
+      "candidate": "v4",
+      "difference_pp": 2.5,
+      "episodes": 120,
+      "harmed": 5,
+      "helped": 8,
+      "mcnemar_exact_two_sided_p": 0.5810546875,
+      "paired_episode_bootstrap_95_difference_pp": [
+        -3.3333333333333335,
+        8.333333333333332
+      ],
+      "paired_task_cluster_bootstrap_95_difference_pp": [
+        -3.3333333333333335,
+        7.5
+      ],
+      "positive_difference_with_mcnemar_p_below_05": false,
+      "reference": "authors"
+    }
+  ],
+  "selected_v4_profile": "adaptive",
+  "source_integrity": "PASS: v1/v2/v3 and v4 frozen sources",
+  "timing_caveat": "One GPU and one policy server, serial interleaved episodes; other users may contend; descriptive timing only",
+  "trace_audit": "PASS: all 240 episodes; noise recipe, action hashes, exact call accounting and native budgets"
+}

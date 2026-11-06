@@ -1,0 +1,18 @@
+{
+  "authors_harness": "40/120 (33.33%)",
+  "categories": [
+    "sampler_guidance",
+    "execution_monitoring"
+  ],
+  "full_paper_reproduction": false,
+  "horizon": "720 physical actions and 180 total policy calls per episode; no multiplier.",
+  "limitations": [
+    "The exact historical simulator/backend and runtime are not fully pinned by the paper.",
+    "Cross-server numerical drift was observed even for matching initial inputs and noise; its aggregate effect remains unresolved.",
+    "Eight helped and five harmed; exact McNemar p=0.5811. No confirmed accuracy gain.",
+    "Historical versions used different cohorts and must not be ranked by their absolute rates."
+  ],
+  "my_harness": "43/120 (35.83%)",
+  "paper_reference": "42.50% AHS, 1,200 episodes",
+  "scope": "Twenty-four reported RoboCasa GR1 tasks, five seeds each (15\u201319). One unchanged policy server; alternating arm order."
+}

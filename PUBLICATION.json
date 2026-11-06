@@ -1,0 +1,10 @@
+{
+  "description": "My harness for ChunkTrust \u2014 pi0.5; frozen-policy source, integration notes, horizons and qualified pilot results.",
+  "existing_repository": false,
+  "main_entrypoint": "my_harness.py",
+  "new_visibility": "private",
+  "owner": "HitarthSS",
+  "paper": "https://arxiv.org/abs/2609.39754",
+  "repository": "updatedChunkTrust",
+  "requires_paid_api": false
+}

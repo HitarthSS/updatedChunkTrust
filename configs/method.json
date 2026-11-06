@@ -1,0 +1,15 @@
+{
+  "categories": [
+    "sampler_guidance",
+    "execution_monitoring"
+  ],
+  "entrypoint": "my_harness.py",
+  "horizon": "720 physical actions and 180 total policy calls per episode; no multiplier.",
+  "models": [
+    "Frozen NewGain/pi05_robocasa_gr1_tabletop24, step 30,000; ten denoising steps.",
+    "The selected v4 profile is adaptive. It expects 29 public state coordinates and a 16x32 noise tensor."
+  ],
+  "paid_api_calls_required": 0,
+  "scope": "Twenty-four reported RoboCasa GR1 tasks, five seeds each (15\u201319). One unchanged policy server; alternating arm order.",
+  "trainable_parameters": 0
+}

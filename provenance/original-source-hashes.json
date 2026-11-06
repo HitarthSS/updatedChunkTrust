@@ -1,0 +1,135 @@
+{
+  "note": "Source collection hashes; exported locations may differ. Core algorithms are copied without behavior changes.",
+  "source_files": [
+    {
+      "bytes": 2655,
+      "file": "ct_runtime.py",
+      "sha256": "de4b78742d42ee3d5b158810e547c419655501090a05ce2033d8bae3930d8398"
+    },
+    {
+      "bytes": 12065,
+      "file": "eval_one.py",
+      "sha256": "526d8dced85e19fb447b0fecfd5ff042b2643270cd5397b40d8af687bd670b75"
+    },
+    {
+      "bytes": 5493,
+      "file": "my_harness.py",
+      "sha256": "befb2bde049596715a2e79092c9ed4a7c9853c65f2f8f736d34e524219110071"
+    },
+    {
+      "bytes": 4722,
+      "file": "test_harness.py",
+      "sha256": "bad0a81cf7f1c3d417f4521ad8203dba21474ba0e4471eb78925f8f770dc2ac7"
+    },
+    {
+      "bytes": 3186,
+      "file": "download_package.py",
+      "sha256": "94b66149f2a4ea4b67b5655ba5a2cb9f213fabd050a990f99fb220102345ce9a"
+    },
+    {
+      "bytes": 2556,
+      "file": "prepare_runtime.py",
+      "sha256": "e6ecba02f49e4c573b7b0b3381acf5324a17287c3f1225d7bc889b851eaae380"
+    },
+    {
+      "bytes": 5973,
+      "file": "validated-v4/controller.py",
+      "sha256": "a004fcaff6dc1e8d5a40ae6826d0ebd2605d8c52c903aba39992da01e0da86c4"
+    },
+    {
+      "bytes": 17275,
+      "file": "validated-v4/pipeline.py",
+      "sha256": "4eccac8c7cd3535cc2b6205a911cef2a3af3dfe3ee32f03c95f0b10cd1dfae26"
+    },
+    {
+      "bytes": 7561,
+      "file": "validated-v4/test_v4.py",
+      "sha256": "665d5042f0626b3469346da2d1606dd5a7c83c0d2c97de2e7ed41c06586f217b"
+    },
+    {
+      "bytes": 9195,
+      "file": "validated-v4/report.py",
+      "sha256": "e08e8ba8039903bc8aaefa9a1f72cfa2475779b38bcdba2e3478792fe821045f"
+    },
+    {
+      "bytes": 12850,
+      "file": "validated-v4/evaluate.py",
+      "sha256": "94164ae0bb0cf3cc1ccc00ed57411456c8f311b494528914c24900ec2ec7ee23"
+    },
+    {
+      "bytes": 2168,
+      "file": "validated-v4/runtime_v4.py",
+      "sha256": "390e10483e24b2013e14b770a4404bfbd7c1ed877dc8a3998813fd95a2d23df5"
+    },
+    {
+      "bytes": 1557,
+      "file": "validated-v4/legacy_anchor.py",
+      "sha256": "961f5971aa9caca80db55d906cf5bfbac6afd581dcbb904f4c5ec194b2df62d2"
+    },
+    {
+      "bytes": 1393,
+      "file": "coherence-v3/runtime_v3.py",
+      "sha256": "72fa8be4c2ade389a4c5aa3642c6af9002022e88eafe8afd4669e68389501435"
+    },
+    {
+      "bytes": 15492,
+      "file": "coherence-v3/pipeline.py",
+      "sha256": "41746aebf957d265ce31986d862e5b31b686b94306b5310f17dcf6d51e3f614c"
+    },
+    {
+      "bytes": 3491,
+      "file": "coherence-v3/report.py",
+      "sha256": "3e3429008df05e5c3f9f4cbeffce8596842f1f8d89310f5ed6682d244b3d0cb3"
+    },
+    {
+      "bytes": 4736,
+      "file": "coherence-v3/coherent_noise.py",
+      "sha256": "8737b91d94ad871b91b0ba61acd529a2c0ee9922c0dd2c34e36c9f2e490d0d3a"
+    },
+    {
+      "bytes": 12332,
+      "file": "coherence-v3/evaluate.py",
+      "sha256": "d890839a5c8fa93bc5c6f1dda76e9f267157181a47788876357bce2b703f97eb"
+    },
+    {
+      "bytes": 4790,
+      "file": "coherence-v3/test_coherence.py",
+      "sha256": "b1a022c8259302112df22199915c5cf8446fe9ec09d202b42e528f0afbd1707b"
+    },
+    {
+      "bytes": 14996,
+      "file": "proposal-v2/pipeline.py",
+      "sha256": "958049b49de56f120599451ed0877d7d351c17b6716ad773f6a4ad810d2e2ba1"
+    },
+    {
+      "bytes": 2678,
+      "file": "proposal-v2/report.py",
+      "sha256": "89c42ad8a96d33b9f8473cd8b5824c7794662e5ac9b21d946ec030043fb7404a"
+    },
+    {
+      "bytes": 13701,
+      "file": "proposal-v2/evaluate.py",
+      "sha256": "9b48af9dc5089442b2633fdc96dc80e711825772e9d40c2ca1987e401d7db69d"
+    },
+    {
+      "bytes": 11235,
+      "file": "proposal-v2/proposal_selector.py",
+      "sha256": "a41c4a28b55b64baac3ce296fb8b6d45e3071bd95b88ab4c77321da54cc9086b"
+    },
+    {
+      "bytes": 5450,
+      "file": "proposal-v2/test_proposals.py",
+      "sha256": "25df1fb3aeeebb8d28f1d50659d538fbc5b6b443640a66713520bb834dace994"
+    },
+    {
+      "bytes": 1407,
+      "file": "proposal-v2/runtime_v2.py",
+      "sha256": "492d7616ce27d045b4d5eefb21cf24d17425a8fbe3181c248dc8921190136929"
+    },
+    {
+      "bytes": 1070,
+      "file": "licenses/UPSTREAM-LICENSE",
+      "sha256": "47c664305ab01245635e7f055f77c45a48f701807190ab4bcd5765eb54332ac2"
+    }
+  ]
+}
